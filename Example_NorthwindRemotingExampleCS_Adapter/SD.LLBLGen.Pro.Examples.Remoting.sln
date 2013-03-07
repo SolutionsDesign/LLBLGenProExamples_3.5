@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingService", "RemotingService\RemotingService.csproj", "{95792E69-AA03-4F0E-8F14-E08973518B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{F528FB26-E386-442B-A6C0-7EE762134FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DAL", "DAL\Northwind.DAL.csproj", "{2387D544-6089-4FF4-B2F5-84A9A3F05EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DALDBSpecific", "DAL\Northwind.DALDBSpecific.csproj", "{787CDBF5-D6C6-4940-9856-EDF44035ECEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "GUI\Client.csproj", "{A2E51BDC-08D5-44C1-A579-39A722748ADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95792E69-AA03-4F0E-8F14-E08973518B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95792E69-AA03-4F0E-8F14-E08973518B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95792E69-AA03-4F0E-8F14-E08973518B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95792E69-AA03-4F0E-8F14-E08973518B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F528FB26-E386-442B-A6C0-7EE762134FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F528FB26-E386-442B-A6C0-7EE762134FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F528FB26-E386-442B-A6C0-7EE762134FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F528FB26-E386-442B-A6C0-7EE762134FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2387D544-6089-4FF4-B2F5-84A9A3F05EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2387D544-6089-4FF4-B2F5-84A9A3F05EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2387D544-6089-4FF4-B2F5-84A9A3F05EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2387D544-6089-4FF4-B2F5-84A9A3F05EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787CDBF5-D6C6-4940-9856-EDF44035ECEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787CDBF5-D6C6-4940-9856-EDF44035ECEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787CDBF5-D6C6-4940-9856-EDF44035ECEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787CDBF5-D6C6-4940-9856-EDF44035ECEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E51BDC-08D5-44C1-A579-39A722748ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E51BDC-08D5-44C1-A579-39A722748ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E51BDC-08D5-44C1-A579-39A722748ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E51BDC-08D5-44C1-A579-39A722748ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

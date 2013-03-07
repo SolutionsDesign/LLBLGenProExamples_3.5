@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DAL", "DAL\Northwind.DAL.csproj", "{4E346564-EC59-4598-86FF-729F911B89B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DALDBSpecific", "DAL\Northwind.DALDBSpecific.csproj", "{436E1C90-2583-4A0A-BDBA-F081705A6B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.GUI", "GUI\Northwind.GUI.csproj", "{949A9A83-40F9-4923-8764-BD52E8EF44A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E346564-EC59-4598-86FF-729F911B89B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E346564-EC59-4598-86FF-729F911B89B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E346564-EC59-4598-86FF-729F911B89B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E346564-EC59-4598-86FF-729F911B89B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436E1C90-2583-4A0A-BDBA-F081705A6B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436E1C90-2583-4A0A-BDBA-F081705A6B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436E1C90-2583-4A0A-BDBA-F081705A6B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436E1C90-2583-4A0A-BDBA-F081705A6B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949A9A83-40F9-4923-8764-BD52E8EF44A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949A9A83-40F9-4923-8764-BD52E8EF44A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949A9A83-40F9-4923-8764-BD52E8EF44A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949A9A83-40F9-4923-8764-BD52E8EF44A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

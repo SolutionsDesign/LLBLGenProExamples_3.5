@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>LLBLGen Pro Northwind C# example 1</title>
+	</head>
+<body>
+<font face="arial">
+<h2>LLBLGen Pro Northwind C# example 1.</h2>
+This is the first example for the LLBLGen Pro application. It requires the SqlServer Northwind database to run.
+To make it run on your system, change the connection string in the App.config file to make the code be able to access your
+SqlServer instance with the Northwind database.
+<br><br>
+The application itself is not ment to be an illustration how to write n-tier applications, it's ment to illustrate several key
+elements of the generated code LLBLGen Pro produces. The screen 'CustomerManager' allows you to do addition and removal of orders,
+altering of orders and altering of customer data. Because it uses 2 grids in master-detail format, there is no functionality added to
+check if a given productid is also available in the database. A normal application would have a different, more sophisticated order-entering
+screen, however the current window setup is able to illustrate the necessary elements, and that's what this example is all about. :)
+<br><br>
+When you add an order, the orderid is unknown, because it is an identity field. Keep it 0 until you save the order. When you add a new order detail row
+to an existing order, fill in the right orderid (there are no checks implemented in this example). Also, when you try to modify a product id of an existing
+order detail row, you'll notice you can't, this is because the field is readonly and the LLBLGen Pro validator kicks in when you change it anyway.
+<br><br>
+Some actions will cause an exception, for example when you try to update an order with a ShipVia id &gt; 3. You can then see how LLBLGen Pro reports back the
+exceptions it encounters. The CustomerManager form uses a lot of eventhandling and complex databinding. It is therefore somewhat complex, but it might also
+be helpful to you to illustrate how to construct such a form in .NET.
+<br><br>
+The project is in VS.NET 2008 format. If the references in the project are not pointing towards the 
+correct LLBLGen Pro dll's you have to re-add the references by hand. See 'Compiling the code' in the documentation for details.
+<br><br>
+This SelfServicing example illustrates the load-on-demand feature of SelfServicing. The Adapter variant illustrates the prefetch-path feature.
+<br><br>
+You can see which queries LLBLGen Pro produces and which calls are made by switching on tracing: open App.Config in the GUI project and switch on one 
+or more of the trace switches in the file (enable the DQE tracing switch to view queries). Recompile and run the application in debug mode, you'll see
+the queries and other tracing output in the Output window of Visual Studio.NET.
+</font>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DAL", "DAL\Northwind.DAL.csproj", "{A9C711C8-DBAB-4DDC-A0A6-2251421D89FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.GUI", "GUI\Northwind.GUI.csproj", "{B14C8AA8-B6D1-489F-B798-0DF61A57A8FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9C711C8-DBAB-4DDC-A0A6-2251421D89FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C711C8-DBAB-4DDC-A0A6-2251421D89FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C711C8-DBAB-4DDC-A0A6-2251421D89FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C711C8-DBAB-4DDC-A0A6-2251421D89FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14C8AA8-B6D1-489F-B798-0DF61A57A8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14C8AA8-B6D1-489F-B798-0DF61A57A8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14C8AA8-B6D1-489F-B798-0DF61A57A8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14C8AA8-B6D1-489F-B798-0DF61A57A8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
