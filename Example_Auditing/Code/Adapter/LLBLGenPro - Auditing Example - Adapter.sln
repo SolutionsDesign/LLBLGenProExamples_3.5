@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SD.LLBLGen.Pro.Examples.Auditing.SessionHelper", "SessionHelper\SD.LLBLGen.Pro.Examples.Auditing.SessionHelper.csproj", "{FA50FF0A-47C8-47C0-8550-2AF8F72016A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SD.LLBLGen.Pro.Examples.Auditing.GUI", "GUI\SD.LLBLGen.Pro.Examples.Auditing.GUI.csproj", "{67403311-C33D-4C48-B53C-0F1589CEACA2}"
